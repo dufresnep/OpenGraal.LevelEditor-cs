@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D535D20D-8045-4668-88EA-CAA113E95B43}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>OpenGraal.LevelEditor</RootNamespace>
@@ -76,17 +74,18 @@
     <Compile Include="Renderable.cs" />
     <Compile Include="TileRenderer.cs" />
     <Compile Include="MainWindow.Designer.cs" />
+    <Compile Include="gtk-gui\OpenGraal.LevelEditor.MainWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\OpenGraal.Common-cs\OpenGraal.Common\OpenGraal.Common.csproj">
-      <Project>{bf323091-36e1-4a64-97a2-a62e5f5abc1b}</Project>
+      <Project>{BF323091-36E1-4A64-97A2-A62E5F5ABC1B}</Project>
       <Name>OpenGraal.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\OpenGraal.Core-cs\CoreVS2013.csproj">
-      <Project>{265ad0ca-2b19-42ab-9949-b04a135969f5}</Project>
+      <Project>{265AD0CA-2B19-42AB-9949-B04A135969F5}</Project>
       <Name>CoreVS2013</Name>
     </ProjectReference>
   </ItemGroup>
