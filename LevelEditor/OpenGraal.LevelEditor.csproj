@@ -81,13 +81,13 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\opengraal.common-cs\trunk\OpenGraal.Common\OpenGraal.Common.csproj">
+    <ProjectReference Include="..\..\OpenGraal.Common-cs\OpenGraal.Common\OpenGraal.Common.csproj">
       <Project>{bf323091-36e1-4a64-97a2-a62e5f5abc1b}</Project>
       <Name>OpenGraal.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\opengraal.core-cs\trunk\OpenGraal.Core\OpenGraal.Core.csproj">
-      <Project>{cc4af8b5-becf-4562-a0e5-94fbe0fbab8f}</Project>
-      <Name>OpenGraal.Core</Name>
+    <ProjectReference Include="..\..\OpenGraal.Core-cs\CoreVS2013.csproj">
+      <Project>{265ad0ca-2b19-42ab-9949-b04a135969f5}</Project>
+      <Name>CoreVS2013</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
